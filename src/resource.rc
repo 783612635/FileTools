@@ -1,0 +1,4 @@
+// FileTools resource file
+#define IDI_MAIN 1
+
+IDI_MAIN ICON "../res/filetool.ico"

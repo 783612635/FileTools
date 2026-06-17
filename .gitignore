@@ -1,0 +1,50 @@
+# ── Build output ──────────────────────────────────────────────
+build/
+out/
+bin/
+*.exe
+*.dll
+*.lib
+*.exp
+*.ilk
+*.pdb
+
+# tools/ contains 7za.exe and 7z.dll — must NOT be ignored
+!tools/
+!tools/7za.exe
+!tools/7z.dll
+
+# ── CMake generated ──────────────────────────────────────────
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+_deps/
+*.cmake
+
+# ── IDE / Editor ─────────────────────────────────────────────
+.vs/
+.vscode/
+.idea/
+.claude/
+*.user
+*.suo
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+CMakeSettings.json
+*.db
+*.opendb
+
+# ── Logs & runtime ───────────────────────────────────────────
+logs/
+*.log
+FileTools.ini
+
+# ── OS junk ──────────────────────────────────────────────────
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# (tools/7za.exe and tools/7z.dll are already re-included above)
